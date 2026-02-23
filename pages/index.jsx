@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>EBIZBOX</title>
         <meta name="description" content="XXXX" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,8 +31,8 @@ export default function Home() {
       <Banner />
       <Community />
       <AvatarOwner />
-      <Partner /> */}
-      <Maintentance />
+      <Partner />
+      {/* <Maintentance /> */}
       {/* <Nfts /> */}
      
       <Footer />

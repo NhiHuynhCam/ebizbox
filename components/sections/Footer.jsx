@@ -102,7 +102,7 @@ export default function Footer() {
         mt={10}
       >
         <LogoMobile />
-        {/* <Stack direction={"row"} spacing={12} mb={{ base: 10, lg: 0 }} flex={2} >
+        <Stack direction={"row"} spacing={12} mb={{ base: 10, lg: 0 }} flex={2} >
           <Stack align={{ base: "center", md: "flex-start" }}>
             <Heading as={"h3"} fontSize={{ base: "1em", md: "1em", lg: "1em" }}>
             EBIZBOX
@@ -115,7 +115,7 @@ export default function Footer() {
            
           </Stack>
          
-        </Stack> */}
+        </Stack>
         <Stack align={{ base: "center" }} flex={1}>
           <Logo />
         </Stack>
