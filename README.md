@@ -1,0 +1,2 @@
+
+# NextJS NFT Project Template
