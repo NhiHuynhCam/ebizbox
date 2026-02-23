@@ -101,7 +101,7 @@ export default function Footer() {
         zIndex={1}
         mt={10}
       >
-        <LogoMobile />
+        {/* <LogoMobile /> */}
         <Stack direction={"row"} spacing={12} mb={{ base: 10, lg: 0 }} flex={2} >
           <Stack align={{ base: "center", md: "flex-start" }}>
             <Heading as={"h3"} fontSize={{ base: "1em", md: "1em", lg: "1em" }}>
