@@ -9,8 +9,10 @@ import { ArrowBackIcon } from "@chakra-ui/icons";
 import { FiDownload } from "react-icons/fi";
 import { FaRegHandPointUp } from "react-icons/fa"
 import { fadeInUpAnimation } from "@/utils/motion";
+import { BASE_API_URL } from "@/utils/constants";
 
 const Banner = () => {
+    const DOWNLOAD_GAME_URL = BASE_API_URL + '/download/EBIZBOX.zip';
     return (
         <motion.section
             initial={{ y: -100, opacity: 0 }}
@@ -98,7 +100,7 @@ const Banner = () => {
                             </Link>
                             {/* <a href={'/download/Ebizbox.exe'} download> */}
                             {/* TODO: Update download link below */}
-                            <a href={''} download>
+                            <a href={DOWNLOAD_GAME_URL} download>
                                 <CommonButton acitve={true}>
                                     <Flex alignItems="center">
                                         <FiDownload size={20} />
