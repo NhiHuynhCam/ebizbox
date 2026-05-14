@@ -12,7 +12,7 @@ import { fadeInUpAnimation } from "@/utils/motion";
 import { BASE_API_URL } from "@/utils/constants";
 
 const Banner = () => {
-    const DOWNLOAD_GAME_URL = BASE_API_URL + '/download/EBIZBOX.zip';
+    const DOWNLOAD_GAME_URL = BASE_API_URL + '/downloads/EBIZBOX.zip';
     return (
         <motion.section
             initial={{ y: -100, opacity: 0 }}
