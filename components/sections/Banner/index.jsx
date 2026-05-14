@@ -97,7 +97,8 @@ const Banner = () => {
                                 </CommonButton>
                             </Link>
                             {/* <a href={'/download/Ebizbox.exe'} download> */}
-                            <a href={'http://14.224.204.237:6688/EBIZBOX.zip'} download>
+                            {/* TODO: Update download link below */}
+                            <a href={''} download>
                                 <CommonButton acitve={true}>
                                     <Flex alignItems="center">
                                         <FiDownload size={20} />
